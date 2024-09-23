@@ -11,7 +11,9 @@ export const config = {
 
 function App() {
   return (
-    <Routes> {/* Changed from Switch to Routes */}
+    <Routes>
+      {" "}
+      {/* Changed from Switch to Routes */}
       <Route path="/" element={<Products />} /> {/* Updated component syntax */}
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
