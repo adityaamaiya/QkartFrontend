@@ -22,6 +22,7 @@
 .login-button {
     background-color: #ffffff !important;
     color: #00a278 !important;
+    box-shadow: none !important;
 }
 .logout-button{
     background-color: #00a278 !important;
