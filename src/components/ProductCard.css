@@ -1,0 +1,25 @@
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.card-actions {
+    margin-bottom: 1rem;
+}
+
+.card-button {
+    text-transform: none;
+    font-weight: 600;
+    background-color: #00a278 !important;
+    color: #ffffff !important;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.card-button:hover {
+    background-color: #00845c !important;
+}
