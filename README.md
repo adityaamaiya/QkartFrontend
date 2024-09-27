@@ -41,14 +41,14 @@ QKart is a full-featured e-commerce web application that offers a variety of pro
 To run the project locally:
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/qkart.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd qkart
-   \`\`\`
+   ```
 
 3. Install dependencies:
    ```bash
@@ -56,14 +56,14 @@ To run the project locally:
    ```
 
 4. Start the development server:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 5. Open the app in your browser:
-   \`\`\`
+   ```
    http://localhost:3000
-   \`\`\`
+   ```
 
 ## Deployment
 
