@@ -27,6 +27,9 @@ QKart is a full-featured e-commerce web application that offers a variety of pro
 - **React Router**: Supports smooth navigation between different pages.
 - **Route Protection**: Only authenticated users can access the checkout page.
 
+### 5. **Frontend and Backend Deployment**
+- Deployed frontend on Vercel and backend on Render to ensure fast, reliable access across the web.
+
 ## Tech Stack
 
 - **React.js**: Built the front-end interface using reusable components and hooks.
