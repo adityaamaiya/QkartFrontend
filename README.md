@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# QKart - E-commerce Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+QKart is a full-featured e-commerce web application that offers a variety of products to customers. It provides features like user authentication, shopping cart management, checkout, and product search, with a responsive design for seamless experiences across different devices.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. **User Authentication**
 
-### `npm start`
+- **Registration & Login**: Users can register and log in using a simple form.
+- **Form Validation**: Provides real-time validation to ensure correct input.
+- **Session Persistence**: Uses `localStorage` to keep users logged in after revisiting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. **Product Browsing and Search**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Product List**: Displays a list of products dynamically fetched from the backend.
+- **Search Bar**: Allows users to search products using a debounced search bar for better UX and reduced API calls.
+- **Responsive UI**: Ensures a uniform experience across devices, with adaptive layouts.
 
-### `npm test`
+### 3. **Shopping Cart & Checkout**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Add to Cart**: Users can add products to their cart and view them in a dynamically updated UI.
+- **Cart Views**: Different views for cart items on the Products page and the Checkout page.
+- **Checkout Flow**: Implements address management and validation to complete purchases.
 
-### `npm run build`
+### 4. **Routing**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React Router**: Supports smooth navigation between different pages.
+- **Route Protection**: Only authenticated users can access the checkout page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React.js**: Built the front-end interface using reusable components and hooks.
+- **REST APIs**: Fetches data and interacts with the backend for user authentication and product information.
+- **Material UI**: Used for responsive design and improving the overall UI experience.
+- **React Router**: Handles the routing logic for navigating between pages.
+- **LocalStorage**: Stores user data on the client side to persist login sessions.
+- **Debouncing**: Reduces API calls during search for better performance.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/your-username/qkart.git
+   \`\`\`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
+   \`\`\`bash
+   cd qkart
+   \`\`\`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-## Learn More
+4. Start the development server:
+   \`\`\`bash
+   npm start
+   \`\`\`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open the app in your browser:
+   \`\`\`
+   http://localhost:3000
+   \`\`\`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+The project has been deployed to Vercel. Visit the live demo [here](https://qkart-frontend-six-chi.vercel.app/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshots
 
-### Analyzing the Bundle Size
+### 1. QKart Component Architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Component Architecture](https://i.imgur.com/vpH1zXv.png)
 
-### Making a Progressive Web App
+### 2. Request-response cycle for QKart User signup and login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Request-response cycle](https://i.imgur.com/jW5xf9K.png)
 
-### Advanced Configuration
+### 3. Products Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Products Page](https://i.imgur.com/0pCUvWm.png)
 
-### Deployment
+### 4. User flow on website for signup and login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![User flow on website for signup and login](https://i.imgur.com/dGjH0Zx.png)
 
-### `npm run build` fails to minify
+### 5. Checkout Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Checkout Page](https://i.imgur.com/UgVSU3i.png)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
