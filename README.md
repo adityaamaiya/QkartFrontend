@@ -51,9 +51,9 @@ To run the project locally:
    \`\`\`
 
 3. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 4. Start the development server:
    \`\`\`bash
